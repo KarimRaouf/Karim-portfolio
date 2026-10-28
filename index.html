@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Karim Abdelraouf (كريم عبد الرؤوف) · Software Engineer</title>
-<meta name="description" content="Karim Abdelraouf, Software Engineer building mobile apps with Flutter and full-stack products with Django and Next.js. Quran, prayer, pet care, marketplace and offers apps live on the App Store and Google Play.">
-<meta name="author" content="Karim Abdelraouf">
+<title>Karim AbdEl-Raouf (كريم عبد الرءوف) · Software Engineer</title>
+<meta name="description" content="Karim AbdEl-Raouf, Software Engineer building mobile apps with Flutter and full-stack products with Django and Next.js. Quran, prayer, pet care, marketplace and offers apps live on the App Store and Google Play.">
+<meta name="author" content="Karim AbdEl-Raouf">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#070b14">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Karim Abdelraouf">
-<meta property="og:title" content="Karim Abdelraouf · Software Engineer">
-<meta property="og:description" content="Karim Abdelraouf, Software Engineer building mobile apps with Flutter and full-stack products with Django and Next.js. Quran, prayer, pet care, marketplace and offers apps live on the App Store and Google Play.">
+<meta property="og:site_name" content="Karim AbdEl-Raouf">
+<meta property="og:title" content="Karim AbdEl-Raouf · Software Engineer">
+<meta property="og:description" content="Karim AbdEl-Raouf, Software Engineer building mobile apps with Flutter and full-stack products with Django and Next.js. Quran, prayer, pet care, marketplace and offers apps live on the App Store and Google Play.">
 <meta property="og:image" content="img/me.webp">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Karim Abdelraouf · Software Engineer">
-<meta name="twitter:description" content="Karim Abdelraouf, Software Engineer building mobile apps with Flutter and full-stack products with Django and Next.js. Quran, prayer, pet care, marketplace and offers apps live on the App Store and Google Play.">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Karim Abdelraouf", "alternateName": "كريم عبد الرؤوف", "jobTitle": "Software Engineer", "email": "mailto:karimzraouf@gmail.com", "url": "https://github.com/KarimRaouf", "sameAs": ["https://www.linkedin.com/in/karim-abd-el-raouf-623bb21b4/", "https://github.com/KarimRaouf"], "alumniOf": {"@type": "CollegeOrUniversity", "name": "October 6 University"}, "knowsAbout": ["Flutter", "Dart", "Mobile development", "Django", "Next.js", "Firebase", "Clean Architecture"], "address": {"@type": "PostalAddress", "addressLocality": "Cairo", "addressCountry": "EG"}}</script>
+<meta name="twitter:title" content="Karim AbdEl-Raouf · Software Engineer">
+<meta name="twitter:description" content="Karim AbdEl-Raouf, Software Engineer building mobile apps with Flutter and full-stack products with Django and Next.js. Quran, prayer, pet care, marketplace and offers apps live on the App Store and Google Play.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Karim AbdEl-Raouf", "alternateName": "كريم عبد الرءوف", "jobTitle": "Software Engineer", "email": "mailto:karimzraouf@gmail.com", "url": "https://github.com/KarimRaouf", "sameAs": ["https://www.linkedin.com/in/karim-abd-el-raouf-623bb21b4/", "https://github.com/KarimRaouf"], "alumniOf": {"@type": "CollegeOrUniversity", "name": "October 6 University"}, "knowsAbout": ["Flutter", "Dart", "Mobile development", "Django", "Next.js", "Firebase", "Clean Architecture"], "address": {"@type": "PostalAddress", "addressLocality": "Cairo", "addressCountry": "EG"}}</script>
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -349,7 +349,7 @@ html.is-loading .intro > *, html.is-loading .hero h1 .w, html.is-loading .orbit 
 
 /* app rail */
 .rail-wrap { display: grid; gap: 14px; margin-top: -56px; }
-.rail { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 10px; }
+.rail { display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 10px; }
 .pill {
   display: grid; justify-items: center; gap: 8px; padding: 14px 8px 12px; border-radius: 18px; text-decoration: none; color: var(--ink);
   background: color-mix(in srgb, var(--surface) 80%, transparent); border: 1px solid var(--line); position: relative; overflow: hidden;
@@ -581,6 +581,9 @@ html.sheet-lock, html.sheet-lock body { overflow: hidden; }
 .store:hover { border-color: var(--ink); }
 .store svg { width: 14px; height: 14px; }
 .note { font: 500 0.75rem/1.3 var(--mono); color: var(--muted); }
+.stack { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.stack span { font: 600 0.7rem/1 var(--mono); padding: 5px 8px; border-radius: 6px; color: var(--ink); background: color-mix(in srgb, var(--c, var(--muted)) 16%, transparent); border: 1px solid color-mix(in srgb, var(--c, var(--muted)) 40%, transparent); }
+.cap .stack { margin: 0 0 10px; }
 .deck { position: relative; z-index: 1; height: min(74vh, 680px); min-height: 0; perspective: 1600px; }
 .card {
   position: absolute; left: 50%; top: 50%; height: min(60vh, 560px); width: auto; border: 0; padding: 0; background: none;
@@ -739,7 +742,7 @@ html.sheet-lock, html.sheet-lock body { overflow: hidden; }
 .k-arch [data-s="x"] .x em::after { content: "GET /apps ↓"; }
 .k-arch [data-s="x2"] .x em::after { content: "200 ↑"; color: #22c55e; }
 .k-arch [data-s="d2"] .d em::after { content: "Result.ok ↑"; color: #22c55e; }
-.k-arch [data-s="p2"] .p em::after { content: "8 apps ✓"; color: #22c55e; }
+.k-arch [data-s="p2"] .p em::after { content: "11 apps ✓"; color: #22c55e; }
 .k-arch .mv { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 26px; align-items: center; height: 175px; position: relative; }
 .k-arch .col { display: grid; gap: 6px; justify-items: center; text-align: center; }
 .k-arch .col .bx { width: 100%; padding: 8px 6px; font-size: 10px; min-height: 64px; display: grid; align-content: center; gap: 3px; }
@@ -1238,7 +1241,7 @@ footer { color: var(--muted); font-size: 0.85rem; display: flex; justify-content
     <div class="ld-orbit" id="ld-orbit"><img src="img/horus-icon.webp" alt="" style="--k:0"><img src="img/waffer-icon.webp" alt="" style="--k:1"><img src="img/tamayaz-icon.webp" alt="" style="--k:2"><img src="img/yamavet-icon.webp" alt="" style="--k:3"><img src="img/alazaizy-icon.webp" alt="" style="--k:4"><img src="img/stc-icon.webp" alt="" style="--k:5"><img src="img/adltix-icon.webp" alt="" style="--k:6"><img src="img/mushaf-icon.webp" alt="" style="--k:7"><img src="img/blind-icon.webp" alt="" style="--k:8"><img src="img/duaay-icon.webp" alt="" style="--k:9"></div>
     <div class="ld-core"><b id="ld-num">0</b><span id="ld-txt">Loading the apps</span></div>
   </div>
-  <div class="ld-mark">Karim<span>.</span>Abdelraouf</div>
+  <div class="ld-mark">Karim<span>.</span>AbdEl-Raouf</div>
 </div>
 <script>
 (function () {
@@ -1286,7 +1289,7 @@ footer { color: var(--muted); font-size: 0.85rem; display: flex; justify-content
 </script>
 <header class="top">
   <div class="top-in">
-    <a class="mark" href="#top">Karim<span>.</span>Abdelraouf</a>
+    <a class="mark" href="#top">Karim<span>.</span>AbdEl-Raouf</a>
     <nav aria-label="Sections" id="nav">
       <a href="#work" data-sec="work" data-t="nav.work">Work</a>
       <a href="#capabilities" data-sec="capabilities" data-t="nav.caps">What I do</a>
@@ -1312,9 +1315,9 @@ footer { color: var(--muted); font-size: 0.85rem; display: flex; justify-content
   <section class="hero" id="hero" aria-label="Introduction">
     <div class="glow" id="glow" aria-hidden="true"></div>
     <div class="hero-text intro" id="intro">
-      <div class="hello"><button class="me-btn" type="button" aria-label="View photo"><img class="me" src="img/me.webp" alt="Karim Abdelraouf" width="68" height="68"></button><span class="avail"><span class="dot" aria-hidden="true"></span><span data-t="avail">Open to new Flutter &amp; full-stack projects</span></span></div>
-      <div class="alt-name" id="alt-name" lang="ar" dir="rtl">كريم عبد الرؤوف</div>
-      <h1 id="name"><span class="w">Karim</span> <span class="w">Abdelraouf</span></h1>
+      <div class="hello"><button class="me-btn" type="button" aria-label="View photo"><img class="me" src="img/me.webp" alt="Karim AbdEl-Raouf" width="68" height="68"></button><span class="avail"><span class="dot" aria-hidden="true"></span><span data-t="avail">Open to new Flutter &amp; full-stack projects</span></span></div>
+      <div class="alt-name" id="alt-name" lang="ar" dir="rtl">كريم عبد الرءوف</div>
+      <h1 id="name"><span class="w">Karim</span> <span class="w">AbdEl-Raouf</span></h1>
       <p class="role" data-t="role">Software Engineer <b>· Flutter &amp; Full Stack</b></p>
       <p class="lede" data-t="lede"></p>
       <div class="actions">
@@ -1337,14 +1340,14 @@ footer { color: var(--muted); font-size: 0.85rem; display: flex; justify-content
 
   <div class="rail-wrap" id="rail-wrap">
     <div class="label" data-t="rail"></div>
-    <nav class="rail" id="rail" aria-label="Jump to an app"></nav>
+    <nav class="rail" id="rail" aria-label="Jump to a project"></nav>
   </div>
 
   <section id="work" aria-label="Selected work">
     <div class="sec-head rise">
       <div class="label" data-t="work.label">Selected work</div>
-      <h2 data-t="work.title">Scroll through the apps I've shipped</h2>
-      <p data-t="work.sub">Production apps for enterprises, government events, games and commerce, live on the App Store and Google Play.</p>
+      <h2 data-t="work.title">Scroll through the products I've shipped</h2>
+      <p data-t="work.sub">Quran, prayer, pet care, marketing, offers, fitness, enterprise AI and web products, from the stores and from client work.</p>
     </div>
     <div id="chapters"></div>
   </section>
@@ -1421,7 +1424,7 @@ footer { color: var(--muted); font-size: 0.85rem; display: flex; justify-content
 
   <section class="contact rise" id="contact">
     <div>
-      <div class="contact-me"><button class="me-btn" type="button" aria-label="View photo"><img src="img/me.webp" alt="Karim Abdelraouf" loading="lazy"></button><div class="label" data-t="c.label">Contact</div></div>
+      <div class="contact-me"><button class="me-btn" type="button" aria-label="View photo"><img src="img/me.webp" alt="Karim AbdEl-Raouf" loading="lazy"></button><div class="label" data-t="c.label">Contact</div></div>
       <h2 data-t="c.title">Have an app to build?</h2>
       <p data-t="c.sub">Send me a short note about the product and the timeline.</p>
     </div>
@@ -1438,7 +1441,7 @@ footer { color: var(--muted); font-size: 0.85rem; display: flex; justify-content
       </a>
       <a class="link" style="--brand: #0a66c2" href="https://www.linkedin.com/in/karim-abd-el-raouf-623bb21b4/">
         <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1V21h-4v-4.9c0-1.17-.02-2.68-1.63-2.68-1.64 0-1.89 1.28-1.89 2.6V21h-4z"/></svg></span>
-        <span class="txt"><span class="k">LinkedIn</span><span class="v">Karim Abdelraouf</span></span>
+        <span class="txt"><span class="k">LinkedIn</span><span class="v">Karim AbdEl-Raouf</span></span>
         <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
       </a>
       <a class="link" style="--brand: #24292f" href="https://github.com/KarimRaouf">
@@ -1449,7 +1452,7 @@ footer { color: var(--muted); font-size: 0.85rem; display: flex; justify-content
     </div>
   </section>
 
-  <footer><span data-t="foot.a">© 2026 Karim Abdelraouf</span><span data-t="foot.b">Flutter · Full Stack · Cairo</span></footer>
+  <footer><span data-t="foot.a">© 2026 Karim AbdEl-Raouf</span><span data-t="foot.b">Flutter · Full Stack · Cairo</span></footer>
 </div>
 
 <nav class="dock" id="dock" aria-label="Apps"></nav>
@@ -1474,6 +1477,7 @@ footer { color: var(--muted); font-size: 0.85rem; display: flex; justify-content
     <button class="sh-btn primary" type="button" id="sh-see"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg><span id="sh-see-t">See it on this page</span></button>
     <a class="sh-btn" id="sh-as" href="#"></a>
     <a class="sh-btn" id="sh-gp" href="#"></a>
+    <a class="sh-btn" id="sh-web" href="#"></a>
   </div>
 </div>
 
@@ -1516,10 +1520,10 @@ var T = {
     avail: "Open to new Flutter &amp; full-stack projects",
     role: "Software Engineer <b>· Flutter &amp; Full Stack</b>",
     lede: "I build high-performance mobile apps for iOS and Android with Flutter, and the backends and AI features behind them. My apps have passed 5,000 downloads with 5-star ratings on Google Play and the App Store. I've led teams as project owner and taken products from the first screen, through Apple's review, to the store.",
-    see: "See the apps", orbiting: "Now building", sheetSee: "See it on this page",
-    rail: "9 apps shipped · 6 live on the App Store and Google Play",
-    "work.label": "Selected work", "work.title": "Scroll through the apps I've shipped",
-    "work.sub": "Quran, prayer, pet care, marketing, offers, fitness and enterprise apps, from the stores and from client work.",
+    see: "See the work", orbiting: "Now building", sheetSee: "See it on this page",
+    rail: "11 products shipped · 6 live on the App Store and Google Play", web: "Website",
+    "work.label": "Selected work", "work.title": "Scroll through the products I've shipped",
+    "work.sub": "Quran, prayer, pet care, marketing, offers, fitness, enterprise AI and web products, from the stores and from client work.",
     "caps.label": "What I do", "caps.title": "From the first screen to the store release", "caps.sub": "What I bring to a team, and the apps where you can see it.",
     "more.label": "More projects", "more.title": "Built for companies and clients", "more.sub": "More internal and client apps that aren't listed on the stores.",
     "exp.label": "Experience", "exp.title": "Where I've worked",
@@ -1542,18 +1546,18 @@ var T = {
     "wa.fail": "It couldn't be sent. Please try WhatsApp.", "wa.needName": "Add your name.", "wa.needMsg": "Write a message first.", "wa.needReply": "Add your phone or email so I can reply.",
     "wa.close": "Close",
     "tg.title": "Message me on Telegram", "tg.openT": "Open Telegram", "tg.hereS": "Your message reaches my Telegram", "tg.instead": "Open Telegram instead", "tg.reply": "Your phone number or email",
-    "foot.a": "© 2026 Karim Abdelraouf", "foot.b": "Flutter · Full Stack · Cairo",
-    top: "Top", screen: "screen", name: ["Karim", "Abdelraouf"], alt: "كريم عبد الرؤوف"
+    "foot.a": "© 2026 Karim AbdEl-Raouf", "foot.b": "Flutter · Full Stack · Cairo",
+    top: "Top", screen: "screen", name: ["Karim", "AbdEl-Raouf"], alt: "كريم عبد الرءوف"
   },
   ar: {
     "nav.work": "الأعمال", "nav.caps": "ماذا أقدّم", "nav.more": "مشاريع", "nav.exp": "الخبرة", "nav.skills": "المهارات", "nav.contact": "تواصل",
     avail: "متاح لمشاريع Flutter والـ Full Stack",
     role: "مهندس برمجيات <b>· Flutter و Full Stack</b>",
     lede: "أبني تطبيقات iOS وAndroid عالية الأداء باستخدام Flutter، ومعها الأنظمة الخلفية وميزات الذكاء الاصطناعي التي تقف خلفها. تجاوزت تطبيقاتي 5,000 تنزيل بتقييم 5 نجوم على Google Play وApp Store. قدت فرقًا كمالك للمشروع، وأتولّى المنتج من أول شاشة مرورًا بمراجعة Apple حتى النشر على المتجر.",
-    see: "شاهد التطبيقات", orbiting: "يُبنى الآن", sheetSee: "شاهده في هذه الصفحة",
-    rail: "9 تطبيقات · 6 منها منشورة على App Store و Google Play",
-    "work.label": "أعمال مختارة", "work.title": "تصفّح التطبيقات التي أطلقتها",
-    "work.sub": "تطبيقات للقرآن والأدعية ورعاية الحيوانات الأليفة والتسويق والعروض واللياقة والشركات، من المتاجر ومن أعمال العملاء.",
+    see: "شاهد الأعمال", orbiting: "يُبنى الآن", sheetSee: "شاهده في هذه الصفحة",
+    rail: "11 منتجًا · 6 منها منشورة على App Store و Google Play", web: "الموقع",
+    "work.label": "أعمال مختارة", "work.title": "تصفّح المنتجات التي أطلقتها",
+    "work.sub": "منتجات للقرآن والأدعية ورعاية الحيوانات الأليفة والتسويق والعروض واللياقة وذكاء اصطناعي للشركات ومواقع ويب، من المتاجر ومن أعمال العملاء.",
     "caps.label": "ماذا أقدّم", "caps.title": "من أول شاشة حتى النشر على المتجر", "caps.sub": "ما أضيفه للفريق، والتطبيقات التي تشهد عليه.",
     "more.label": "مشاريع أخرى", "more.title": "بنيتها لشركات وعملاء", "more.sub": "تطبيقات داخلية وتطبيقات لعملاء غير منشورة على المتاجر.",
     "exp.label": "الخبرة", "exp.title": "أين عملت",
@@ -1576,77 +1580,91 @@ var T = {
     "wa.fail": "تعذّر الإرسال، جرّب واتساب.", "wa.needName": "اكتب اسمك.", "wa.needMsg": "اكتب رسالتك أولًا.", "wa.needReply": "أضف رقمك أو بريدك لأتمكن من الرد عليك.",
     "wa.close": "إغلاق",
     "tg.title": "راسلني على تيليجرام", "tg.openT": "افتح تيليجرام", "tg.hereS": "رسالتك تصلني على تيليجرام", "tg.instead": "أو افتح تيليجرام", "tg.reply": "رقم هاتفك أو بريدك الإلكتروني",
-    "foot.a": "© 2026 كريم عبد الرؤوف", "foot.b": "Flutter · Full Stack · القاهرة",
-    top: "للأعلى", screen: "شاشة", name: ["كريم", "عبد الرؤوف"], alt: "Karim Abdelraouf"
+    "foot.a": "© 2026 كريم عبد الرءوف", "foot.b": "Flutter · Full Stack · القاهرة",
+    top: "للأعلى", screen: "شاشة", name: ["كريم", "عبد الرءوف"], alt: "Karim AbdEl-Raouf"
   }
 };
 
 var GP = "https://play.google.com/store/apps/details?id=";
 var APPS = [
-  { id: "horus", name: "Horus Fitness", short: "Horus", c: "#c9a24a",
+  { id: "horus", stack: ["Next.js", "Django"], name: "Horus Fitness", short: "Horus", c: "#c9a24a", web: "https://www.horusfitness.com/",
     en: { tag: "Fitness", kind: "Wellness pyramid: mind, nutrition and fitness",
-      desc: "A fitness community app with personalized workout plans, guided routines, live events and competitions, and a shop that runs on Horus coins.",
+      desc: "A full-stack fitness platform, with a Next.js web app and a Django admin panel, offering personalized workout plans, progress tracking, live events and competitions, and a shop that runs on Horus coins.",
       feats: ["Workout plans for men, women, kids and seniors", "Guided routines with progress", "Live events and bookings", "Groups, competitions and leaderboard", "Horus shop and coins", "In-app chat"] },
     arT: { tag: "لياقة", kind: "هرم العافية: العقل والتغذية واللياقة",
-      desc: "تطبيق لمجتمع اللياقة فيه خطط تمارين مخصّصة، وروتين موجّه، وفعاليات ومسابقات مباشرة، ومتجر يعمل بعملات Horus.",
+      desc: "منصة لياقة متكاملة، بتطبيق ويب على Next.js ولوحة تحكم على Django، فيها خطط تمارين مخصّصة، ومتابعة للتقدّم، وفعاليات ومسابقات مباشرة، ومتجر يعمل بعملات Horus.",
       feats: ["خطط تمارين للرجال والنساء والأطفال وكبار السن", "روتين موجّه مع متابعة التقدّم", "فعاليات مباشرة وحجوزات", "مجموعات ومسابقات ولوحة صدارة", "متجر Horus وعملاته", "دردشة داخل التطبيق"] } },
-  { id: "waffer", name: "Waffer", ar: "وفّر", c: "#f0642a", gp: GP + "com.ijd.waffer",
+  { id: "bexpert", stack: [".NET", "Next.js"], name: "BusinessExpert.Ai", short: "BExpert", c: "#f5c542", web: "https://www.business-expert.ai/",
+    en: { tag: "Enterprise AI", kind: "Enterprise intelligence platform for decisions, delivery and operations",
+      desc: "Turns enterprise knowledge and business intent into intelligent decisions, autonomous software delivery and AI-powered business functions, for banking, healthcare and government.",
+      feats: ["Decision intelligence", "Engineering intelligence: specs to working systems", "AI-powered business functions", "Knowledge graphs and document intelligence", "Governed, explainable decisions with audit logs", "ERP, core banking, HIS/EMR and SSO integrations"] },
+    arT: { tag: "ذكاء مؤسسي", kind: "منصة ذكاء مؤسسي للقرارات والتسليم والتشغيل",
+      desc: "تحوّل معرفة المؤسسة وأهداف أعمالها إلى قرارات ذكية، وتسليم برمجيات ذاتي، ووظائف أعمال مدعومة بالذكاء الاصطناعي، لقطاعات البنوك والرعاية الصحية والحكومة.",
+      feats: ["ذكاء القرارات", "الذكاء الهندسي: من المواصفات إلى أنظمة تعمل", "وظائف أعمال بالذكاء الاصطناعي", "رسوم معرفية وذكاء المستندات", "قرارات محكومة وقابلة للتفسير مع سجل تدقيق", "تكامل مع ERP والأنظمة المصرفية وHIS/EMR وSSO"] } },
+  { id: "waffer", stack: ["Flutter"], name: "Waffer", ar: "وفّر", c: "#f0642a", gp: GP + "com.ijd.waffer",
     en: { tag: "Offers", kind: "Discounts, coupons and seasonal offers",
       desc: "Businesses register and manage their discounts, coupons and seasonal offers, and shoppers discover the latest deals in one simple app.",
       feats: ["Business sign-up and offer management", "Coupons and gift cards", "Seasonal offers", "Browse by category", "Instant alerts for new deals"] },
     arT: { tag: "عروض", kind: "خصومات وكوبونات وعروض موسمية",
       desc: "تسجّل الشركات خصوماتها وكوبوناتها وعروضها الموسمية وتديرها، ويكتشف المتسوّقون أحدث العروض في تطبيق واحد بسيط.",
       feats: ["تسجيل الشركات وإدارة العروض", "كوبونات وبطاقات هدايا", "عروض موسمية", "التصفح حسب القسم", "تنبيه فوري بالعروض الجديدة"] } },
-  { id: "tamayaz", name: "Tamayaz", ar: "تميّز", c: "#1f8a5b",
+  { id: "tamayaz", stack: ["Flutter"], name: "Tamayaz", ar: "تميّز", c: "#1f8a5b",
     en: { tag: "Loyalty", kind: "Exclusive discounts, coupons and offers for members",
       desc: "Connects subscribers with accredited providers for exclusive discounts, coupons and offers, and helps organizations engage and retain their employees with membership perks.",
       feats: ["Membership tiers", "Exclusive discounts and offers", "Coupons and vouchers", "Browse providers by category", "Branches and maps", "Cart and saved payment cards", "Points and wallet"] },
     arT: { tag: "ولاء", kind: "خصومات وقسائم وعروض حصرية للأعضاء",
       desc: "يربط المشتركين بمزوّدين معتمدين للحصول على خصومات وقسائم وعروض حصرية، ويساعد المؤسسات على إشراك موظفيها والحفاظ عليهم بمزايا العضوية.",
       feats: ["مستويات العضوية", "خصومات وعروض حصرية", "قسائم وكوبونات شراء", "تصفّح المزوّدين حسب الفئة", "الفروع والخرائط", "السلة وبطاقات الدفع المحفوظة", "النقاط والمحفظة"] } },
-  { id: "yamavet", name: "Yama Vet", ar: "ياما فيت", c: "#b5566e", as: "https://apps.apple.com/us/app/yama-vet/id6476448659", gp: GP + "com.oss.yama_vet",
+  { id: "yamavet", stack: ["Flutter"], name: "Yama Vet", ar: "ياما فيت", c: "#b5566e", as: "https://apps.apple.com/us/app/yama-vet/id6476448659", gp: GP + "com.oss.yama_vet",
     en: { tag: "Pet care", kind: "Home vet visits, any time", note: "5.0 ★ on the App Store",
       desc: "Pet owners request medical care for their pets from home, any time and anywhere, without a trip to the clinic.",
       feats: ["Request a vet at home", "Available any time", "Phone number sign-in", "Medical services for pets"] },
     arT: { tag: "رعاية الحيوانات", kind: "زيارات بيطرية منزلية في أي وقت", note: "5.0 ★ على App Store",
       desc: "يطلب أصحاب الحيوانات الأليفة الرعاية الطبية لحيواناتهم من المنزل، في أي وقت ومن أي مكان، دون الذهاب إلى العيادة.",
       feats: ["طلب طبيب بيطري للمنزل", "متاح في أي وقت", "تسجيل الدخول برقم الهاتف", "خدمات طبية للحيوانات الأليفة"] } },
-  { id: "alazaizy", name: "Alazaizy Group", short: "Alazaizy", ar: "العزايزي", c: "#7aa51e",
+  { id: "alazaizy", stack: ["Flutter"], name: "Alazaizy Group", short: "Alazaizy", ar: "العزايزي", c: "#7aa51e",
     en: { tag: "Enterprise", kind: "Multi-role inventory and supply orders for a brick maker",
       desc: "Storekeepers request supplies and track their orders, while the maintenance, financial and purchasing managers review each order and approve, postpone or reject it.",
       feats: ["Five roles, one app", "Supply orders with item lists", "Approve, postpone or delete", "Order status tracking", "User activation by managers", "Arabic RTL interface"] },
     arT: { tag: "شركات", kind: "إدارة المخازن وطلبات التوريد متعددة الأدوار لمصنع طوب",
       desc: "يطلب أمناء المخازن المستلزمات ويتابعون طلباتهم، ويراجع مديرو الصيانة والحسابات والمشتريات كل طلب فيوافقون عليه أو يؤجلونه أو يرفضونه.",
       feats: ["خمسة أدوار في تطبيق واحد", "طلبات توريد بقائمة أصناف", "موافقة أو تأجيل أو حذف", "متابعة حالة الطلب", "تفعيل المستخدمين من المديرين", "واجهة عربية من اليمين لليسار"] } },
-  { id: "stc", name: "STC", c: "#8a3b2a",
+  { id: "stc", stack: ["Flutter"], name: "STC", c: "#8a3b2a",
     en: { tag: "Enterprise", kind: "Field tasks, assets and reports for company teams",
       desc: "A company management app where employees work through assigned tasks, track time and progress, file reports with checklists, and manage assets with photos, QR scans and map locations.",
       feats: ["High-priority and assigned tasks", "Task progress and time tracking", "Reports with checklists", "Asset catalogue with photos", "QR scan and map locations", "Team chat"] },
     arT: { tag: "شركات", kind: "مهام ميدانية وأصول وتقارير لفرق الشركة",
       desc: "تطبيق لإدارة الشركة ينجز فيه الموظفون المهام المسندة إليهم، ويتابعون الوقت والتقدّم، ويرفعون تقارير بقوائم تحقق، ويديرون الأصول بالصور ومسح QR ومواقع على الخريطة.",
       feats: ["مهام عالية الأولوية ومسندة", "متابعة التقدّم والوقت", "تقارير بقوائم تحقق", "كتالوج أصول بالصور", "مسح QR ومواقع على الخريطة", "دردشة الفريق"] } },
-  { id: "adltix", name: "Adltix", c: "#d6303c", as: "https://apps.apple.com/eg/app/adltix/id6741104812", gp: GP + "adlitx.app",
+  { id: "adltix", stack: ["Flutter"], name: "Adltix", c: "#d6303c", as: "https://apps.apple.com/eg/app/adltix/id6741104812", gp: GP + "adlitx.app",
     en: { tag: "Marketing", kind: "Influencer marketing marketplace",
       desc: "The mobile app for ADLTIX, a platform that connects advertisers with influencers on a commission-based model and manages every campaign in one place.",
       feats: ["Advertisers meet influencers", "Commission-based payouts", "Campaigns in one place", "Performance reports", "WebView app on iOS and Android"] },
     arT: { tag: "تسويق", kind: "منصة للتسويق عبر المؤثرين",
       desc: "تطبيق الجوال لمنصة ADLTIX التي تربط المعلنين بالمؤثرين بنظام العمولة، وتدير كل الحملات في مكان واحد.",
       feats: ["ربط المعلنين بالمؤثرين", "أرباح بنظام العمولة", "كل الحملات في مكان واحد", "تقارير الأداء", "تطبيق WebView على iOS وAndroid"] } },
-  { id: "mushaf", name: "Mushaf", ar: "المصحف", c: "#c9a13b", as: "https://apps.apple.com/eg/app/quran-by-almoshaf-app/id1508818459", gp: GP + "atw.quran",
+  { id: "eslam", stack: ["Next.js", "Supabase"], name: "Eslam Portfolio", short: "Eslam", c: "#d12f2f", web: "https://eslam-portfolio-tau.vercel.app/",
+    en: { tag: "Portfolio", kind: "Portfolio website for a filmmaker and reel creator",
+      desc: "Designed and built end to end, from UI/UX to frontend and backend: a portfolio for a filmmaker and reel creator that showcases his video work, services and contact details, with an admin panel to manage the content.",
+      feats: ["Filterable video gallery", "Services section", "Contact section", "Admin panel to manage content", "UI/UX, frontend and backend"] },
+    arT: { tag: "معرض أعمال", kind: "موقع معرض أعمال لصانع أفلام ومحتوى ريلز",
+      desc: "صمّمته وبنيته بالكامل، من تجربة المستخدم والواجهة حتى الواجهة الأمامية والخلفية: موقع لصانع أفلام ومحتوى ريلز يعرض أعماله المرئية وخدماته وطرق التواصل معه، مع لوحة تحكم لإدارة المحتوى.",
+      feats: ["معرض فيديو قابل للتصفية", "قسم الخدمات", "قسم التواصل", "لوحة تحكم لإدارة المحتوى", "تجربة المستخدم والواجهة الأمامية والخلفية"] } },
+  { id: "mushaf", stack: ["Flutter"], name: "Mushaf", ar: "المصحف", c: "#c9a13b", as: "https://apps.apple.com/eg/app/quran-by-almoshaf-app/id1508818459", gp: GP + "atw.quran",
     en: { tag: "Quran", kind: "Read, listen to, memorize and review the Holy Quran", note: "4.3 ★ · 53 ratings on the App Store",
       desc: "A complete Quran companion: read the Mushaf, listen to a wide choice of reciters, even offline, and understand every word with translations. Free and ad-free.",
       feats: ["Read the full Mushaf", "Wide choice of reciters", "Offline listening and downloads", "Search the Quran", "Dhikr", "Word translations in many languages"] },
     arT: { tag: "قرآن", kind: "اقرأ القرآن الكريم واستمع إليه واحفظه وراجعه", note: "4.3 ★ · 53 تقييمًا على App Store",
       desc: "رفيق متكامل للقرآن: اقرأ المصحف، واستمع لمجموعة كبيرة من القرّاء حتى بدون إنترنت، وافهم كل كلمة بالترجمات. مجاني وبدون إعلانات.",
       feats: ["قراءة المصحف كاملًا", "مجموعة كبيرة من القرّاء", "استماع وتنزيل بدون إنترنت", "البحث في القرآن", "الأذكار", "ترجمة الكلمات بلغات كثيرة"] } },
-  { id: "blind", name: "Quran for Blind", short: "Quran Blind", ar: "القرآن للمكفوفين", c: "#d99a1c", as: "https://apps.apple.com/eg/app/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D9%84%D9%84%D9%85%D9%83%D9%81%D9%88%D9%81%D9%8A%D9%86/id6503299868", gp: GP + "com.atw.blind",
+  { id: "blind", stack: ["Flutter"], name: "Quran for Blind", short: "Quran Blind", ar: "القرآن للمكفوفين", c: "#d99a1c", as: "https://apps.apple.com/eg/app/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D9%84%D9%84%D9%85%D9%83%D9%81%D9%88%D9%81%D9%8A%D9%86/id6503299868", gp: GP + "com.atw.blind",
     en: { tag: "Accessibility", kind: "The Quran for visually impaired users, driven by voice",
       desc: "Speech recognition lets users find a surah just by saying it, then listen, memorize and track their progress, all by voice.",
       feats: ["Voice search for surahs", "Speech-to-text and text-to-speech", "Voice memorization", "Memorization progress", "Downloadable reciter voices"] },
     arT: { tag: "إتاحة", kind: "القرآن لذوي الإعاقة البصرية، بالتحكم الصوتي",
       desc: "يتيح التعرّف على الكلام للمستخدم أن يجد السورة بمجرد نطقها، ثم يستمع ويحفظ ويتابع تقدّمه، كل ذلك بالصوت.",
       feats: ["البحث عن السور بالصوت", "تحويل الكلام إلى نص والنص إلى كلام", "الحفظ بالصوت", "متابعة تقدّم الحفظ", "تنزيل أصوات القرّاء"] } },
-  { id: "duaay", name: "Duaay", ar: "دعائي", c: "#2f56b0", as: "https://apps.apple.com/eg/app/%D8%AF%D8%B9%D8%A7%D8%A6%D9%8A/id6648793425", gp: GP + "atw.duaaa",
+  { id: "duaay", stack: ["Flutter"], name: "Duaay", ar: "دعائي", c: "#2f56b0", as: "https://apps.apple.com/eg/app/%D8%AF%D8%B9%D8%A7%D8%A6%D9%8A/id6648793425", gp: GP + "atw.duaaa",
     en: { tag: "Faith", kind: "Prayers that match how you feel",
       desc: "Users share how they feel, get fitting prayers from a chatbot, post them publicly and follow anonymous prayers from others.",
       feats: ["Chatbot that suggests prayers", "Public prayer feed", "Anonymous prayers from others", "Categories of supplications", "Daily reminders", "Save favorites"] },
@@ -1684,16 +1702,16 @@ var CAPS = [
     ar: ["واجهات يستخدمها الناس", "واجهات بديهية رفعت تفاعل المستخدمين بنسبة 70%، مطابقة للتصميم."] }
 ];
 var MORE = [
-  { name: "ATW Team", arName: "ATW Team", icon: '<path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.9-.9L3 20.5l1.6-4.6A8.4 8.4 0 1 1 21 11.5z"/>',
+  { name: "ATW Team", stack: ["Flutter"], arName: "ATW Team", icon: '<path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.9-.9L3 20.5l1.6-4.6A8.4 8.4 0 1 1 21 11.5z"/>',
     en: "Team app with chats, emails, audio and video calls, task management with hour tracking, a learning management system and attendance.",
     ar: "تطبيق للفرق فيه دردشة وبريد ومكالمات صوتية ومرئية وإدارة مهام بتتبّع الساعات ونظام لإدارة التعلّم وتسجيل الحضور." },
-  { name: "Adhany", arName: "أذاني", icon: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>',
+  { name: "Adhany", stack: ["Flutter"], arName: "أذاني", icon: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>',
     en: "Prayer time notifications calculated from the user's precise location.",
     ar: "إشعارات بمواقيت الصلاة محسوبة من موقع المستخدم الدقيق." },
-  { name: "Book SPA", arName: "Book SPA", icon: '<path d="M12 22c4-3 7-6.5 7-11a7 7 0 0 0-14 0c0 4.5 3 8 7 11z"/><circle cx="12" cy="11" r="2.5"/>',
+  { name: "Book SPA", stack: ["Flutter"], arName: "Book SPA", icon: '<path d="M12 22c4-3 7-6.5 7-11a7 7 0 0 0-14 0c0 4.5 3 8 7 11z"/><circle cx="12" cy="11" r="2.5"/>',
     en: "Customers book spa services and pay securely online; spa stores manage their services and bookings.",
     ar: "يحجز العملاء خدمات السبا ويدفعون إلكترونيًا بأمان، وتدير المراكز خدماتها وحجوزاتها." },
-  { name: "Ur Path", arName: "Ur Path", icon: '<path d="M2 7l10-4 10 4-10 4z"/><path d="M6 9v5c0 1.7 2.7 3 6 3s6-1.3 6-3V9"/>',
+  { name: "Ur Path", stack: ["Flutter"], arName: "Ur Path", icon: '<path d="M2 7l10-4 10 4-10 4z"/><path d="M6 9v5c0 1.7 2.7 3 6 3s6-1.3 6-3V9"/>',
     en: "Explore and register for training courses, with secure online payment.",
     ar: "استكشف الدورات التدريبية وسجّل فيها، مع دفع إلكتروني آمن." }
 ];
@@ -1776,8 +1794,8 @@ var FL = [
     }],
     ["MVVM", "The view only binds; the ViewModel holds the state.", "الواجهة تعرض فقط، والـ ViewModel يحمل الحالة.", function () {
       return '<div class="mv"><div class="col"><span class="hd">View</span>' + phone('<div class="tap fx"' + at(1) + '></div>' + '<div class="fx"' + at(8) + ">" + frows(["mushaf", "yamavet", "duaay", "blind"]) + "</div>") + "</div>" +
-        '<div class="col"><span class="hd">ViewModel</span><div class="bx"><span class="mu">state</span><b class="fx"' + at(3) + ' data-off="6">loading…</b><b class="ok fx"' + at(6) + ">ready(8)</b></div></div>" +
-        '<div class="col"><span class="hd">Model</span><div class="bx">AppsRepo<span class="ok fx"' + at(5) + ">8 apps</span></div></div>" +
+        '<div class="col"><span class="hd">ViewModel</span><div class="bx"><span class="mu">state</span><b class="fx"' + at(3) + ' data-off="6">loading…</b><b class="ok fx"' + at(6) + ">ready(11)</b></div></div>" +
+        '<div class="col"><span class="hd">Model</span><div class="bx">AppsRepo<span class="ok fx"' + at(5) + ">11 apps</span></div></div>" +
         '<span class="ar fx" style="left:33.3%;top:136px"' + at(2) + '>load() →</span><span class="ar b fx" style="left:33.3%;top:154px"' + at(7) + ">← notify</span>" +
         '<span class="ar fx" style="left:66.6%;top:136px"' + at(4) + '>fetch →</span><span class="ar b fx" style="left:66.6%;top:154px"' + at(5) + ">← data</span></div>";
     }],
@@ -1836,7 +1854,7 @@ var FL = [
   { id: "net", c: ["Networking", "الشبكات"], t: ["Networking", "الشبكات"], s: [
     ["REST", "Clean REST calls with every status handled.", "طلبات REST واضحة، مع معالجة كل حالة.", function () {
       return '<div class="ends"><div class="bx">' + FPHONE + '</div><div class="bx srv"' + at(2) + ">" + FSRV + "</div>" +
-        '<span class="pk rq" data-st="1:a 2:b 3:gone">GET /v1/apps</span><span class="pk g rs" data-st="3:b 4:a">200 OK · 8 apps</span></div>' +
+        '<span class="pk rq" data-st="1:a 2:b 3:gone">GET /v1/apps</span><span class="pk g rs" data-st="3:b 4:a">200 OK · 11 apps</span></div>' +
         '<div class="meths"><span' + at(1) + ">GET</span><span>POST</span><span>PUT</span><span>PATCH</span><span>DELETE</span></div>" +
         '<div class="bot"><span class="lbl fx"' + at(4) + ">142 ms · application/json</span></div>";
     }],
@@ -2171,6 +2189,7 @@ function renderSkills() {
   });
 }
 var APPLE = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.1 2.5-1.8 3.1-.5 7.6 1.3 10.1.8 1.2 1.8 2.6 3.1 2.5 1.3-.1 1.7-.8 3.3-.8 1.5 0 1.9.8 3.3.8 1.4 0 2.2-1.2 3-2.5.9-1.4 1.3-2.8 1.3-2.8s-2.6-1-2.6-4zM14 5.2c.7-.8 1.1-1.9 1-3-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.2-.6 2.9-1.4z"/></svg>';
+var WEB = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
 var PLAY = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 1.8c-.3.3-.4.7-.4 1.2v18c0 .5.1.9.4 1.2L13.8 12 3.6 1.8zm11.3 9.1 2.8-2.8L5.3.9c-.4-.2-.8-.3-1.1-.2l10.7 10.2zm0 2.2L4.2 23.3c.3.1.7 0 1.1-.2l12.4-7.2-2.8-2.8zm6.5-3.6-2.7-1.6-3 3 3 3 2.7-1.6c.8-.5.8-2.3 0-2.8z"/></svg>';
 var SHOTS = 4;
 function spaceLatin(v) {
@@ -2195,6 +2214,7 @@ var LANG = "en";
 var flowMQ = window.matchMedia("(max-width: 960px)");
 function isFlow() { return flowMQ.matches || reduce; }
 function tx(a) { return LANG === "ar" ? a.arT : a.en; }
+function stackHtml(a) { return a.stack ? '<div class="stack" dir="ltr">' + a.stack.map(function (s) { return '<span>' + esc(s) + '</span>'; }).join("") + '</div>' : ''; }
 
 /* ---------- rendering (re-run on language change) ---------- */
 function renderApps() {
@@ -2204,6 +2224,7 @@ function renderApps() {
       '<div class="pill-sub"><small>' + esc(tx(a).tag) + '</small><span class="pill-stores">' +
         (a.as ? '<a class="ps" href="' + a.as + '" aria-label="' + esc(a.name) + ' · App Store" title="App Store">' + APPLE + '</a>' : '') +
         (a.gp ? '<a class="ps" href="' + a.gp + '" aria-label="' + esc(a.name) + ' · Google Play" title="Google Play">' + PLAY + '</a>' : '') +
+        (a.web ? '<a class="ps" href="' + a.web + '" aria-label="' + esc(a.name) + ' · ' + T[LANG].web + '" title="' + T[LANG].web + '">' + WEB + '</a>' : '') +
       '</span></div></div>';
   }).join("");
 
@@ -2222,10 +2243,10 @@ function renderApps() {
         '<div class="ghost" aria-hidden="true">' + esc(a.name) + '</div>' +
         '<div class="info">' +
           '<div class="count"><b>' + String(n + 1).padStart(2, "0") + '</b><span class="bar"><i></i></span>' + String(APPS.length).padStart(2, "0") + '</div>' +
-          '<div class="app-id"><img src="img/' + a.id + '-icon.webp" alt=""><div><h3>' + esc(a.name) + (a.ar ? '<span lang="ar" dir="rtl">' + a.ar + '</span>' : '') + '</h3><div class="kind">' + esc(t.kind) + '</div></div></div>' +
+          '<div class="app-id"><img src="img/' + a.id + '-icon.webp" alt=""><div><h3>' + esc(a.name) + (a.ar ? '<span lang="ar" dir="rtl">' + a.ar + '</span>' : '') + '</h3><div class="kind">' + esc(t.kind) + '</div>' + stackHtml(a) + '</div></div>' +
           '<p class="desc">' + esc(t.desc) + '</p>' +
           '<ul class="feats">' + t.feats.map(function (f) { return '<li>' + esc(f) + '</li>'; }).join("") + '</ul>' +
-          '<div class="meta">' + (a.as ? '<a class="store" href="' + a.as + '">' + APPLE + 'App Store</a>' : '') + (a.gp ? '<a class="store" href="' + a.gp + '">' + PLAY + 'Google Play</a>' : '') + (t.note ? '<span class="note">' + esc(t.note) + '</span>' : '') + '</div>' +
+          '<div class="meta">' + (a.as ? '<a class="store" href="' + a.as + '">' + APPLE + 'App Store</a>' : '') + (a.gp ? '<a class="store" href="' + a.gp + '">' + PLAY + 'Google Play</a>' : '') + (a.web ? '<a class="store" href="' + a.web + '">' + WEB + T[LANG].web + '</a>' : '') + (t.note ? '<span class="note">' + esc(t.note) + '</span>' : '') + '</div>' +
         '</div>' +
         '<div class="deck">' + cards + '</div>' +
       '</div>' +
@@ -2239,7 +2260,7 @@ function renderApps() {
   }).join("");
 
   $("more").innerHTML = MORE.map(function (m) {
-    return '<div class="cap rise"><div class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + m.icon + '</svg></div><h3>' + esc(LANG === "ar" ? m.arName : m.name) + '</h3><p>' + esc(m[LANG]) + '</p></div>';
+    return '<div class="cap rise"><div class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + m.icon + '</svg></div><h3>' + esc(LANG === "ar" ? m.arName : m.name) + '</h3>' + stackHtml(m) + '<p>' + esc(m[LANG]) + '</p></div>';
   }).join("");
 
   renderSkills();
@@ -2281,9 +2302,10 @@ function openSheet(a, from) {
   $("sh-title").textContent = LANG === "ar" && a.ar ? a.ar : a.name;
   $("sh-kind").textContent = tx(a).kind;
   $("sh-see-t").textContent = T[LANG].sheetSee;
-  var as = $("sh-as"), gp = $("sh-gp");
+  var as = $("sh-as"), gp = $("sh-gp"), web = $("sh-web");
   as.hidden = !a.as; if (a.as) { as.href = a.as; as.innerHTML = APPLE + "App Store"; }
   gp.hidden = !a.gp; if (a.gp) { gp.href = a.gp; gp.innerHTML = PLAY + "Google Play"; }
+  web.hidden = !a.web; if (a.web) { web.href = a.web; web.innerHTML = WEB + T[LANG].web; }
   sheet.style.transform = "";
   sheet.classList.add("open"); sheetOv.classList.add("open"); root.classList.add("sheet-lock");
   $("sh-see").focus({ preventScroll: true });
@@ -2340,8 +2362,8 @@ function setScreen(app) {
 }
 var HR = { mushaf: ["MushafApp", "QuranReader"], yamavet: ["YamaVetApp", "HomeVisits"], blind: ["QuranBlindApp", "VoiceSearch"],
   duaay: ["DuaayApp", "DuaFeed"], adltix: ["AdltixApp", "Campaigns"], waffer: ["WafferApp", "OffersHub"],
-  horus: ["HorusApp", "WellnessPyramid"], alazaizy: ["AlazaizyApp", "SupplyOrders"], stc: ["StcApp", "TaskBoard"],
-  tamayaz: ["TamayazApp", "MemberOffers"] };
+  horus: ["HorusApp", "WellnessPyramid"], bexpert: ["BExpertApp", "DecisionHub"], alazaizy: ["AlazaizyApp", "SupplyOrders"], stc: ["StcApp", "TaskBoard"],
+  tamayaz: ["TamayazApp", "MemberOffers"], eslam: ["EslamApp", "ReelGallery"] };
 var Studio = (function () {
   var lines = $("hr-lines"), btn = $("hr-btn"), ms = $("hr-ms"), sk = $("hr-sk"), boxes = sk.querySelectorAll("i"), tree = $("hr-tree").querySelectorAll("div:not(.hr-head)");
   var ship = $("hr-ship"), scr = document.querySelector(".orbit .screen"), k = 0, gen = 0, on = false;
@@ -2361,7 +2383,7 @@ var Studio = (function () {
     $("hr-ic").src = "img/" + a.id + "-icon.webp";
     $("hr-name").textContent = LANG === "ar" && a.ar ? a.ar : (a.short || a.name);
     $("hr-tag").textContent = tx(a).tag;
-    $("hr-st").innerHTML = (a.as ? '<span>' + APPLE + 'App Store</span>' : '') + (a.gp ? '<span>' + PLAY + 'Google Play</span>' : '');
+    $("hr-st").innerHTML = (a.as ? '<span>' + APPLE + 'App Store</span>' : '') + (a.gp ? '<span>' + PLAY + 'Google Play</span>' : '') + (a.web ? '<span>' + WEB + T[LANG].web + '</span>' : '');
     ship.href = "#app-" + a.id;
   }
   function paint(a) {
@@ -2619,6 +2641,7 @@ Studio.still();
 requestAnimationFrame(loop);
 (function () {
   function warm() {
+    if (flowMQ.matches) return;
     APPS.forEach(function (a) { for (var i = 0; i < SHOTS; i++) { var im = new Image(); im.decoding = "async"; im.src = "img/" + a.id + "-" + i + ".webp"; } });
   }
   window.addEventListener("load", function () { if (window.requestIdleCallback) requestIdleCallback(warm, { timeout: 1500 }); else setTimeout(warm, 300); });
@@ -2678,7 +2701,7 @@ function openPhoto(btn) {
   var cx = clamp(r.left + r.width / 2, S / 2 + 16, window.innerWidth - S / 2 - 16);
   var cy = clamp(r.top + r.height / 2, S / 2 + 76, window.innerHeight - S / 2 - 16);
   var ov = document.createElement("div"); ov.className = "ph-ov";
-  var img = document.createElement("img"); img.className = "ph-big"; img.src = src.src; img.alt = "Karim Abdelraouf";
+  var img = document.createElement("img"); img.className = "ph-big"; img.src = src.src; img.alt = "Karim AbdEl-Raouf";
   img.style.width = S + "px"; img.style.height = S + "px"; img.style.left = (cx - S / 2) + "px"; img.style.top = (cy - S / 2) + "px";
   document.body.appendChild(ov); document.body.appendChild(img);
   var from = "translate(" + (r.left + r.width / 2 - cx).toFixed(1) + "px," + (r.top + r.height / 2 - cy).toFixed(1) + "px) scale(" + (r.width / S).toFixed(4) + ")";
